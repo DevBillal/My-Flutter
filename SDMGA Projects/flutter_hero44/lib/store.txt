@@ -1,0 +1,109 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_hero44/detail.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Hero Animation'),
+        ),
+        body: MyBody(),
+      ),
+    );
+  }
+}
+
+class SuperHero{
+
+  String image;
+  String name;
+  String description;
+
+  SuperHero(this.image,this.name,this.description);
+
+}
+
+List<SuperHero> hero = [];
+
+addItems(){
+
+  hero.add(new SuperHero("assets/black_widow.png", "Black Widow", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/captain_america.png", "Captain America", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/hulk.png", "Hulk", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/iron_man.png", "Iron Man", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/loki.png", "Loki", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/nick_fury.png", "Nick Fury", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/thor.png", "Thor", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+  hero.add(new SuperHero("assets/war_machine.png", "War Machine", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"));
+
+}
+
+
+class MyBody extends StatefulWidget {
+  const MyBody({Key? key}) : super(key: key);
+
+  @override
+  _MyBodyState createState() => _MyBodyState();
+}
+
+class _MyBodyState extends State<MyBody> {
+
+  _MyBodyState(){
+    addItems();
+  }
+
+  Widget MyHero(BuildContext context, int index){
+    return GestureDetector(
+      onTap: (){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=>MyDetailPage(hero[index])));
+      },
+      child: Expanded(
+          child: Padding(
+            padding: const EdgeInsets.all(15.0),
+            child: Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+
+                      Hero(
+                          tag: hero[index],
+                          child: Image.asset(hero[index].image.toString())
+                      ),
+                      SizedBox(width: 16,),
+                      Text(hero[index].name),
+
+                    ],
+                  ),
+                )
+            ),
+          ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: ListView.builder(
+          itemCount: hero.length,
+          itemBuilder: (context, index)=>MyHero(context,index),
+      ),
+    );
+  }
+}
+
+
