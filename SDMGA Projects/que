@@ -1,0 +1,25 @@
+1=which func is responsible for starting the program - D.main()
+2=is flutter a programming lang - B.No
+3=the exmpl of stat less wid are - D.all of the avobe
+4=how many child widgets cann be added to the container widgets - B.Only one Child widgets
+5=which of the following property should you use to add a lable icon - B.inputDecoration
+6=____ commands chcks your environment and - A.flutter Doctor
+7=which of the folllowing choice is the property and what property value should one add to - A.ObscureText:true
+8=pubspac.yaml file does not contain - project language
+9=flutter is developed by - google
+10=what are th best editor for flutter = all of the avobe
+11=how many types of widgets are there in flutter - 2
+12=colore blend mode work on - container color
+13=which of the following used todevelop the native hybride app from a single codebase = both A and B
+14=FLutter is mainly optimaized for 2D mobile apps that can run on = both A and B
+15=the ___ widgets in flutter is box that comes with a specified size - SizedBOx
+16=what are the advantages of flutter - all on avove
+17= hot restart
+18=flutter is not a language it is an - SDK
+19=a floating action button in flutter development is by default a circular icon button and you - icon(icons.phone);
+20=this widgets helps you to have a specific width and/or height between widgets - SizedBox
+21=android folder
+22=the func is responsilbe for returning the widgets that are attached to the screen - runapp()
+23=how situation we face that center widgets dosents work in body = stateful widgets()
+24= softwere development kit
+25=which properties alocated dynamic space - mainAxisalignment
