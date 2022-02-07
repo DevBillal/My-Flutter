@@ -1,0 +1,55 @@
+1,Which function is responsible for starting the program?,A. runApp(),B. run(),C. flutter(),D. main(),D. main()
+,,,,,,
+2, Is Flutter a programming language?,A. Yes,B.No,C.May be,D.Can't say,B.No
+,,,,,,
+3,The examples of the Stateless widget are?,A. Text,B. Row,C. Column,D. All of the above,D. All of the above
+,,,,,,
+4, How many child widgets can be added to the Container widget?,a. Unlimited children widgets,b. Only one child widget,c. Two children widgets,d. Three children widgets,b. Only one child widget
+,,,,,,
+5,"Which of the following property should you use to add a label, icon, 
+and an inline hint text to The TextField widget?",a. ListView,b. InputDecoration,c. SizeBox,d. shrinkWrap: true,b. InputDecoration
+,,,,,,
+6,"12. __________ command checks your environment and
+ displays a report of the status of your Flutter and Android Studio other than IDE software installation. Which of the following choices is the correct Answer to fill in the blank above?",a. Flutter Doctor,b. Flutter Connection,c. Flutter Screen,d. Flutter IDE_XML,a. Flutter Doctor
+,,,,,,
+7,"Which of the following choices is the property and what property value should one add to
+ the password TextField widget to get this type of secure input?",a. obscureText: true,b. secureText:yes,c. password:stars,d. password:hide,a. obscureText: true
+,,,,,,
+8,pubspec.yaml file does not contain?,A. Project general settings,B. Project dependencies,C. Project language,D. Project assets,C. Project language
+,,,,,,
+9,3. Flutter is developed by ________.,A. Microsoft,B.Facebook,C.Google,D.IBM,C.Google
+,,,,,,
+10,7. What are the best editors for Flutter development?,A. Android Studio,B.IntelliJ IDEA,C.Visual Studio,D.All of the above,D.All of the above
+,,,,,,
+11, How many types of widgets are there in Flutter?,A : 2,B : 3,C : 4,D : 5,A : 2
+,,,,,,
+12,Colore blend mode work on ....,a. Images color,d. Image ratio,c. Contrainer color,b. Images mode,c. Contrainer color
+,,,,,,
+13,Which of the following used to develop the native hybrid app from a single codebase?,A. React,B : Flutter,C : Both A and B,D : Keras,C : Both A and B
+,,,,,,
+14,. Flutter is mainly optimized for 2D mobile apps that can run on?,A : Android,B : iOS,C : Both A and B,D : None of the above,C : Both A and B
+,,,,,,
+15,The ________ widget in Flutter is a box that comes with a specified size.,A. Container,B. Stream,C. Show,D. SizedBox,D. SizedBox
+,,,,,,
+16,3. What are the advantages of Flutter?,A. Cross-platform Development,B. Faster Development,C.UI Focused,D. All of the above,D. All of the above
+,,,,,,
+17,Which of the following takes more time to compile and update the app?,A. Hot Reload,B. Hot Restart,C. Cold Reload,D. Depends on Compiler,B. Hot Restart
+,,,,,,
+18,Flutter is not a language; it is an SDK. ,A. TRUE,B. FALSE,C. Can be true or false,D. Can not say,A. TRUE
+,,,,,,
+19,"A floating action button in Flutter development is by default a circular icon button, and you should add
+ the Icon widget as a child widget of FloatingActionButton widget. Which of the following choices is correct to add a phone icon to the FloatingActionButton widget in a Flutter app?","a. Icon<""phone"">,","b. icon(icon.style:""phone""),","c. Icon(Icons.phone),","d. icon=phone.Flutter,","c. Icon(Icons.phone),"
+,,,,,,
+20,"This widget helps you to have a specific width and/or height between widgets.
+ Which of the following term is this definition for?",a. AppBar,b. SizedBox,c. SafeArea,d. onChanged,b. SizedBox
+,,,,,,
+21,__________ is used when you create the Flutter application for Android.,A. iOS folder,B. Android folder,C. Google folder,D. Text folder,B. Android folder
+,,,,,,
+22,"The function is responsible for returning the widgets that are attached to the screen 
+as a root of the widget tree and will be rendered on the screen.",A. Container,B. runApp(),C. main(),D. SizedBox,B. runApp()
+,,,,,,
+23,how situation we face that center widget doesn't work in body,A.Stateless widgets,B.Statebuild widget,C.Stateful widget,D.All of the above,C.Stateful widget
+,,,,,,
+24,SDK represents____,A. Software Development Knowledge,B. Software Data Kit,C. Software Development Kit,D.Software Database Kit,C. Software Development Kit
+,,,,,,
+25,2.Which propertis allocated dynamic space,a. mainAxisAlignment, b. Padding, c. margin, d. Column,a. mainAxisAlignment
